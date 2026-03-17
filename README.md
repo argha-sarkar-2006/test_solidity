@@ -1,4 +1,4 @@
-# 🧠 MemoChain DApp on Celo
+# 🧠 test_solidity DApp on Celo
 ### A Simple On-Chain Memory Card Matching Game (Built with Solidity)
 
 <img width="1917" height="931" alt="Screenshot 2025-10-29 150104" src="https://github.com/user-attachments/assets/663cad36-1901-460f-b153-adf289435803" />
@@ -11,8 +11,8 @@
 
 ## 📝 Project Description
 
-**MemoChain** is a **beginner-level Solidity smart contract** built on the **Celo testnet (Celo-Sepolia)**.  
-The idea behind MemoChain is to create an **on-chain card matching memory game**, where players can flip and match pairs of cards stored directly on the blockchain.
+**test_solidity** is a **beginner-level Solidity smart contract** built on the **Celo testnet (Celo-Sepolia)**.  
+The idea behind test_solidity is to create an **on-chain card matching memory game**, where players can flip and match pairs of cards stored directly on the blockchain.
 
 This project is meant to help newcomers to Solidity understand **smart contract basics**, **events**, and **state management** in a fun and interactive way.
 
@@ -52,12 +52,12 @@ This project is meant to help newcomers to Solidity understand **smart contract 
 pragma solidity ^0.8.20;
 
 /**
- * @title MemoChain - A Simple On-Chain Memory Card Matching Game
+ * @title test_solidity - A Simple On-Chain Memory Card Matching Game
  * @author 
  * @notice This is a beginner-level Solidity example of a card matching game
  * @dev Simplified logic: cards are represented as integers; players try to match pairs.
  */
-contract MemoChain {
+contract test_solidity {
     address public owner;
     uint8 public constant TOTAL_CARDS = 8; // Example: 4 pairs
     uint8 public revealedPairs;
